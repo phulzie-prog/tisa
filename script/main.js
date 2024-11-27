@@ -303,7 +303,7 @@ const checkPassword = () => {
 
     if (passwordInput === correctPassword) {
         // Redirect to the special page
-        window.location.href = 'special-page.html'; // Change this to your actual special page URL
+        window.location.href = 'newpage.html'; // Change this to your actual special page URL
     } else {
         errorMessage.style.display = 'block'; // Show error message
     }
